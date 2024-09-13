@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
 
         header {
             background-color: #333; 
-            color: white; 
+            color: rgb(116, 21, 21); 
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -21,6 +21,7 @@
         }
 
         .logo img {
+
             height: 50px; 
         }
 
@@ -36,7 +37,7 @@
         }
 
         nav ul li a {
-            color: white;
+            color: rgb(207, 2, 2);
             text-decoration: none; 
             font-weight: bold;
         }
@@ -52,15 +53,15 @@
         }
 
         #menu {
-            background-color: #f4f4f4;
+            background-color: #f4f4f404;
         }
 
         #productos {
-            background-color: #e2e2e2;
+            background-color: #e2e2e202;
         }
 
         #servicio-al-cliente {
-            background-color: #dcdcdc;
+            background-color: #dcdcdc00;
         }
 
         h2 {
@@ -73,7 +74,7 @@
     <header>
       
         <div class="logo">
-            <img src="ruta/del/logo.png" alt="Logo de la Empresa">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGLJC-hmcfN9t5pvZRmFrTBktTfr4lpdWKTA&s" alt="Logo de la Empresa">
         </div>
 
         <nav>
@@ -103,3 +104,4 @@
     </section>
 </body>
 </html>
+
